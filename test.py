@@ -6,8 +6,6 @@ import os
 import csv
 import time
 from datetime import datetime
-
-
 from win32com.client import Dispatch
 
 def speak(str1):
@@ -70,4 +68,3 @@ while True:
         break
 video.release()
 cv2.destroyAllWindows()
-
